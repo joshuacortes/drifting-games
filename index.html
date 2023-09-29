@@ -19,7 +19,34 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "arial", sans-serif;
   background-image: url('https://i.ibb.co/dMbc1qJ/PLAY-NOW.jpg');
   min-height: 100%;
 }
+  
+  .bgimg:hover{
+    opacity:0.6;
+  }
+  
+  .w3-image{
+   
+    
+  }
+  .w3-image:hover{
+    opacity:0.6;
+  }
 
+  .blogtitle{
+    font-family:arial;
+    font-size:1.2em;
+    font-weight:bold;
+    font-style:italic;
+    letter-spacing:-0.5px;
+    margin-top:-5px;
+  }
+  .bloglink{
+    text-decoration:none;
+    color:black;
+  }
+  
+  .bloglink:hover{
+    opacity:0.2;
   }
 </style>
 </head>
@@ -27,7 +54,7 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "arial", sans-serif;
 
 <!-- Sidebar with image -->
 <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
-  <div class="bgimg"></div>
+  <a href="/play"><div class="bgimg"></div></a>
 </nav>
 
 <!-- Hidden Sidebar (reveals when clicked on menu icon)-->
@@ -50,11 +77,13 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "arial", sans-serif;
   <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
   <!-- Header -->
-  <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+  <header class="w3-container w3-center" style="padding:80px 1px" id="home">
     <h1 class="w3-jumbo"><b>Drifting-Games</b></h1>
-    <p>Automotive Gaming & Magazine</p>
-    <img src="https://i.ibb.co/dMbc1qJ/PLAY-NOW.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
-    <img src="https://i.ibb.co/dMbc1qJ/PLAY-NOW.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+    <p style="opacity:0.6;">Automotive Browser Gaming<br>
+      6thGEAR Digital Magazine
+    </p>
+   <a href="/play"> <img src="https://i.ibb.co/dMbc1qJ/PLAY-NOW.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="https://i.ibb.co/dMbc1qJ/PLAY-NOW.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333"></a>
    
   </header>
 
@@ -68,40 +97,85 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "arial", sans-serif;
     <!-- Grid for photos -->
     <div class="w3-row-padding" style="margin:0 -16px">
       <div class="w3-half">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/rocks.jpg" style="width:100%">
-        <img src="/w3images/sailboat.jpg" style="width:100%">
+       <a class="bloglink" href="/aftermarket-performance-parts-honda-civic">
+         <img src="https://i.ibb.co/d0f1GY1/pexels-photo-5628284.webp" style="width:100%">
+        <br>
+        <p class="blogtitle">
+          Honda Civic Aftermarket & Performance Parts
+        </p>
+        </a>
+       <a class="bloglink" href="/aftermarket-performance-parts-honda-civic">
+         <img src="https://i.ibb.co/YQZDXTc/alexandru-ivanov-e8o1-EP1-Ge-ZY-unsplash.webp" style="width:100%">
+        <br>
+        <p class="blogtitle">
+          Modifed Toyota Supra Build
+        </p>
+        </a>
+        <a class="bloglink" href="/aftermarket-performance-parts-mazda-mx-5-miata">
+          <img src="https://i.ibb.co/kQP78FN/pexels-photo-3757226.webp" style="width:100%">
+      <br>
+        <p class="blogtitle">
+         Mazda MX-5 Miata Aftermarket & Performance Parts
+        </p>
+        </a>
       </div>
 
       <div class="w3-half">
-        <img src="/w3images/underwater.jpg" style="width:100%">
-        <img src="/w3images/chef.jpg" style="width:100%">
-        <img src="/w3images/wedding.jpg" style="width:100%">
-        <img src="/w3images/p6.jpg" style="width:100%">
+      <a class="bloglink" href="/aftermarket-performance-parts-honda-civic">
+        <img src="https://i.ibb.co/4WQ4Rws/vitali-adutskevich-y5-WXcam0-Xec-unsplash.webp" style="width:100%">
+        <br>
+        <p class="blogtitle">
+         Modifed Toyota MR2 Build
+        </p>
+        </a>
+        <a class="bloglink" href="/modifed-bmw-3-series-m3-build">
+          <img src="https://i.ibb.co/2dGWpkF/pexels-malcolm-garret-17623844.webp" style="width:100%">
+  <br>
+        <p class="blogtitle">
+         Modifed BMW 3 Series M3 Build
+        </p>
+        </a>
+       <a class="bloglink" href="/aftermarket-performance-parts-nissan-240sx">
+         <img src="https://i.ibb.co/Mg0xy6x/pexels-photo-4022543.webp" style="width:100%">
+  <br>
+        <p class="blogtitle">
+         Nissan 240SX Aftermarket & Performance Parts
+        </p>
+        </a>
+      
       </div>
     <!-- End photo grid -->
     </div>
   <!-- End Portfolio Section -->
+      <a href="/6thgear"><button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+       VISIT 6THGEAR
+    </button></a>
+    
   </div>
-
+<br><br>
   <!-- About Section -->
   <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
-    <h2>DRIFTING-GAMES</h2>
+    <h2>ABOUT DRIFTING-GAMES</h2>
     <hr class="w3-opacity">
     <p>Drifting-games.com, the home of immersive, "easy to play", online drifting. Established over a decade ago, our platform is a free to use, easy and great way to enjoy a simplistic yet engaging online drifting experience. 
       <br><br>
-    6thGEAR is the home of our digital magazine where we update about building cars, trends, news & everything else in the car community.
+    6thGEAR is the rebrand of digital magazine where we post about building cars, new products, trends, news & everything in between.
     </p>
+    
+    <a href="/play"><button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      PLAY NOW
+    </button></a>
      <a href="/6thgear"><button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
        READ 6THGEAR
     </button></a>
+    
   </div>
   </div>
-  
+  <br><br>
   <!-- Footer -->
   <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
   
-    <p class="w3-medium">©Drifting-Games.com <br>All Rights Reserved</p>
+    <p class="w3-medium">© Drifting-Games.com <br>All Rights Reserved</p>
   <!-- End footer -->
   </footer>
   
